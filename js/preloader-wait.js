@@ -7,7 +7,7 @@ function wait(ms){
  }
 
  window.onload = function(){
-     wait(1500);
+     wait(500);
     //hide the preloader
     document.querySelector(".preloader-wrap").style.display = "none";
 }
