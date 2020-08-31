@@ -1,5 +1,8 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![License][license-shield]][license-url]
+[![Status][website-status]]
+[![Issues][issues]]
 
 <br />
 <p align="center">
@@ -66,6 +69,10 @@ Shrid Pant - [LinkedIn](https://www.linkedin.com/in/shridpant/)
 * [Img Shields](https://shields.io)
 
 <!-- MARKDOWN LINKS & IMAGES -->
+[issues]: (https://img.shields.io/github/issues-raw/shridpant/shridpant.github.io)
+[website-status]: https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fshridpant.github.io%2F
+[license-shield]: https://img.shields.io/badge/licence-Apache-yellowgreen
+[license-url]: https://github.com/shridpant/shridpant.github.io/blob/master/LICENSE
 [issues-shield]: images/readme/issues.svg
 [issues-url]: https://github.com/shridpant/shridpant.github.io/issues
 [linkedin-shield]: images/readme/linkedin.svg
