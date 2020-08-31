@@ -1,7 +1,12 @@
 body {
   text-align: center;
-  font-family: 'Raleway';
- }
+  font-family: "Marvel";
+}
+
+@font-face{
+  font-family: Marvel;
+  src: url(fonts/Open_Sans/OpenSans-Regular.ttf)
+}
 
 h1{
   text-align: center;
@@ -13,6 +18,13 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#nepalBg{
+  background-image: url("../images/background-100.png"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .headwrap{
@@ -110,7 +122,7 @@ section{
 /* Horizontal Sliding Text */
 .slidingHorizontal{
 	display: inline;
-	text-indent: 8px;
+	text-indent: 0px;
 }
 .slidingHorizontal span{
 	animation: leftToRight 12.5s linear infinite 0s;
@@ -136,11 +148,7 @@ section{
 	-ms-animation-delay: 7.5s;
 	-webkit-animation-delay: 7.5s;
 }
-.slidingHorizontal span:nth-child(5){
-	animation-delay: 10s;
-	-ms-animation-delay: 10s;
-	-webkit-animation-delay: 10s;
-}
+
 
 /*leftToRight Animation*/
 @-moz-keyframes leftToRight{
@@ -170,4 +178,3 @@ section{
 	80% { opacity: 0; }
 	100% { opacity: 0; }
 }
-

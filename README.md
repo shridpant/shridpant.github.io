@@ -1,0 +1,85 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![Apache License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<br />
+<p align="center">
+  <a href="https://github.com/shridpant/shridpant.github.io">
+    <img src="images/title_icon.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Personal Website</h3>
+
+  <p align="center">
+    Welcome to the GitHub repository of my personal website!
+    <br />
+    <a href="https://github.com/shridpant/shridpant.github.io"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://shridpant.github.io/">View Website</a>
+    ·
+    <a href="https://github.com/shridpant/shridpant.github.io/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/shridpant/shridpant.github.io/issues">Request Feature</a>
+  </p>
+</p>
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+    * [Built With](#built-with)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://shridpant.github.io/)
+
+This repository contains the source code for my personal website hosted on GitHub. It was made possible by many open-sourced libraries and frameworks.
+
+### Built With
+
+The website was built entirely with HTML5, CSS and JavaScript. The following were some external resources used:
+
+* [Bootstrap](https://getbootstrap.com)
+* [JQuery](https://jquery.com)
+
+<!-- LICENSE -->
+## License
+
+Distributed under the Apache License 2.0. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+Shrid Pant - [LinkedIn](https://www.linkedin.com/in/shridpant/)
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledements
+* [Particle.js](https://github.com/VincentGarreau/particles.js/)
+* [README Template](https://github.com/othneildrew/Best-README-Template)
+* [GitHub Pages](https://pages.github.com)
+* [Google Fonts](https://fonts.google.com/)
+* [Img Shields](https://shields.io)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-url]: https://github.com/shridpant/shridpant.github.io/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-url]: https://github.com/shridpant/shridpant.github.io/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-url]: https://github.com/shridpant/shridpant.github.io/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/shridpant/shridpant.github.io/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/shridpant/shridpant.github.io/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/shridpant/
+[product-screenshot]: images/screenshot.png
