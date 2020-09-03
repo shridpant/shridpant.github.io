@@ -23,17 +23,6 @@ section{
   justify-content: center;
 }
 
-#hide{
-  visibility: hidden;
-}
-
-#nepalBg{
-  background-image: url("../images/background-100.png"); /* The image used */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-
 .headwrap{
   margin: auto;
   height: 50vh;
@@ -41,11 +30,6 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.lucid{
-  width: 17%;
-  justify-content: left;
 }
 
 #about{
@@ -60,72 +44,6 @@ section{
   z-index: -1;
 }
 
-/* Preloader Animation*/
-.preloader-wrap{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-}
-
-.loader {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  border: 4px solid rgb(136, 136, 136);
-  animation: loader 2s infinite ease;
-}
-
-.loader-inner {
-  vertical-align: top;
-  display: inline-block;
-  width: 100%;
-  background-color: #242424;
-  animation: loader-inner 2s infinite ease-in;
-}
-
-@keyframes loader {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(180deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  75% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes loader-inner {
-  0% {
-    height: 0%;
-  }
-  25% {
-    height: 0%;
-  }
-  50% {
-    height: 100%;
-  }
-  75% {
-    height: 100%;
-  }
-  100% {
-    height: 0%;
-  }
-}
-
 /* Vertically Sliding Text */
 .animated-text{
   color: rgb(0, 0, 0);
@@ -138,7 +56,7 @@ section{
   font-family: "Marvel";
   color:#E04343;
   text-align: center;
-  font-size: x-large;
+  font-size: 1rem;
   line-height: 60px;
 }
 
