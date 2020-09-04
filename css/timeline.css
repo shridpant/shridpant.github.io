@@ -1,116 +1,242 @@
   /* The code snippets from https://codepen.io/vram1980/pen/jrzgXk/ have been used to make this css file */
 
-  @media only screen and (max-device-width: 800px) {
-
-    .timeline {
-      width: 75vw;
-      position: relative;
-      perspective: 300rem;
-    }
-    .timeline:before {
-      position: absolute;
-      content: "";
-      width: 75vw;
-      height: 2vh;
-      background-color: #d5dfe5;
-      border-radius: 1rem;
-      top: 5rem;
-    }
-    .timeline .timeline-item {
-      text-align: center;
-      position: relative;
-      z-index: 1;
-      cursor: pointer;
-    }
-    .timeline .timeline-item:hover:after {
-      transform: scale(1.2, 1.2);
-    }
-    .timeline .timeline-item.selected:after {
-      background-color: #1c77c3;
-      border: 0.5rem solid #56cbf9;
-      transform: scale(1.5, 1.5);
-    }
-    .timeline .timeline-item:after {
-      width: 2rem;
-      height: 2rem;
-      position: absolute;
-      top: 4rem;
-      left: 50%;
-      margin-left: -5rem;
-      background-color: #f5efed;
-      border: 0.5rem solid #d5dfe5;
-      content: "";
-      border-radius: 50%;
-      transition: transform .5s ease;
-    }
-    .timeline .timeline-item .timeline-content {
-      position: absolute;
-      top: -48vh;
-      display: none;
-      width: 30vw;
-      left: -4.7rem;
-      cursor: auto;
-    }
-    .timeline .timeline-item .timeline-content.fadeIn {
-      animation-delay: .2s;
-    }
-    .timeline .timeline-item .timeline-content.animated {
-      display: block;
-    }
-    
-    .flex-container {
-      top: 30vh;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      align-content: flex-start;
-      align-items: flex-start;
-    }
-    
-    .flex-items-default {
-      width: 25vw;
-      height: 15vh;
-    }
-    
-    .dropdown {
-      width: 32vw;
-      height: 40vh;
-      background: white;
-      box-shadow: 0rem 0.5rem 1rem 0.2rem rgba(0, 0, 0, 0.1);
-      border-radius: 0.5rem;
-      position: absolute;
-      top: -51vh;
-      animation-duration: .2s;
-      transition: left .3s ease;
-    }
-    .dropdown .inner {
-      position: relative;
-      width: 29vw;
-      height: 50vh;
-    }
-    .dropdown .inner .arrow-down {
-      position: absolute;
-      bottom: -1rem;
-      left: 50%;
-      margin-left: -1rem;
-    }
-    
-    .arrow-down {
-      width: 0;
-      height: 0;
-      border-left: 1rem solid transparent;
-      border-right: 1rem solid transparent;
-      border-top: 1rem solid white;
-    }
-    
-    .animated {
-      display: block;
-    }
-
+@media (max-height: 549px) {
+  p{
+    font-size:0.7rem;
+    color:#262626;
+  }
+  .timeline {
+    width: 75vw;
+    position: relative;
+    perspective: 300rem;
+  }
+  .timeline:before {
+    position: absolute;
+    content: "";
+    width: 75vw;
+    height: 2vh;
+    background-color: #d5dfe5;
+    border-radius: 1rem;
+    top: 5rem;
+    left: 0vw;
+  }
+  .timeline .timeline-item {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .timeline .timeline-item:hover:after {
+    transform: scale(1.2, 1.2);
+  }
+  .timeline .timeline-item.selected:after {
+    background-color: #1c77c3;
+    border: 0.5rem solid #56cbf9;
+    transform: scale(1.5, 1.5);
+  }
+  .timeline .timeline-item:after {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    margin-left: -5rem;
+    background-color: #f5efed;
+    border: 0.5rem solid #d5dfe5;
+    content: "";
+    border-radius: 50%;
+    transition: transform .5s ease;
+  }
+  .timeline .timeline-item .timeline-content {
+    position: absolute;
+    top: -68vh;
+    display: none;
+    width: 30vw;
+    left: -5.2rem;
+    cursor: auto;
+  }
+  .timeline .timeline-item .timeline-content.fadeIn {
+    animation-delay: .2s;
+  }
+  .timeline .timeline-item .timeline-content.animated {
+    display: block;
+  }
+  
+  .flex-container {
+    top: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .flex-items-default {
+    left: 10vw;
+    width: 25vw;
+    height: 15vh;
+  }
+  
+  .dropdown {
+    width: 32vw;
+    height: 70vh;
+    background: white;
+    box-shadow: 0rem 0.5rem 1rem 0.2rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    position: absolute;
+    top: -70vh;
+    animation-duration: .2s;
+    transition: left .3s ease;
+  }
+  .dropdown .inner {
+    position: relative;
+    width: 32vw;
+    height: 70vh;
+  }
+  .dropdown .inner .arrow-down {
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    margin-left: -1rem;
+  }
+  
+  .arrow-down {
+    width: 1rem;
+    height: 1rem;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-top: 1rem solid white;
+  }
+  
+  .animated {
+    display: block;
   }
 
+}
+
+@media (min-height: 550px) {
+  @media (max-width: 1000px) {
+    p{
+      font-size: 1rem; 
+      color:#262626;
+    }
+  .timeline {
+    width: 75vw;
+    position: relative;
+    perspective: 300rem;
+  }
+  .timeline:before {
+    position: absolute;
+    content: "";
+    width: 75vw;
+    height: 2vh;
+    background-color: #d5dfe5;
+    border-radius: 1rem;
+    top: 5rem;
+    left: 0vw;
+  }
+  .timeline .timeline-item {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .timeline .timeline-item:hover:after {
+    transform: scale(1.2, 1.2);
+  }
+  .timeline .timeline-item.selected:after {
+    background-color: #1c77c3;
+    border: 0.5rem solid #56cbf9;
+    transform: scale(1.5, 1.5);
+  }
+  .timeline .timeline-item:after {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    margin-left: -5rem;
+    background-color: #f5efed;
+    border: 0.5rem solid #d5dfe5;
+    content: "";
+    border-radius: 50%;
+    transition: transform .5s ease;
+  }
+  .timeline .timeline-item .timeline-content {
+    position: absolute;
+    top: -68vh;
+    display: none;
+    width: 30vw;
+    left: -5.2rem;
+    cursor: auto;
+  }
+  .timeline .timeline-item .timeline-content.fadeIn {
+    animation-delay: .2s;
+  }
+  .timeline .timeline-item .timeline-content.animated {
+    display: block;
+  }
+  
+  .flex-container {
+    top: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .flex-items-default {
+    left: 10vw;
+    width: 25vw;
+    height: 15vh;
+  }
+  
+  .dropdown {
+    width: 32vw;
+    height: 70vh;
+    background: white;
+    box-shadow: 0rem 0.5rem 1rem 0.2rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    position: absolute;
+    top: -70vh;
+    animation-duration: .2s;
+    transition: left .3s ease;
+  }
+  .dropdown .inner {
+    position: relative;
+    width: 32vw;
+    height: 70vh;
+  }
+  .dropdown .inner .arrow-down {
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    margin-left: -1rem;
+  }
+  
+  .arrow-down {
+    width: 1rem;
+    height: 1rem;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-top: 1rem solid white;
+  }
+  
+  .animated {
+    display: block;
+  }
+}
+}
+
+@media (min-width: 1000px) {
 /* Main SCREEN */
+p{
+  font-size: 1rem; 
+  color:#262626;
+}
   .timeline {
     width: 75vw;
     position: relative;
@@ -184,7 +310,7 @@
   
   .dropdown {
     width: 32vw;
-    height: 32vh;
+    height: 35vh;
     background: white;
     box-shadow: 0rem 0.5rem 1rem 0.2rem rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
@@ -216,3 +342,4 @@
   .animated {
     display: block;
   }
+}
