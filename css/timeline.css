@@ -118,7 +118,7 @@
 @media (min-height: 550px) {
   @media (max-width: 1000px) {
     p{
-      font-size: 1rem; 
+      font-size: 0.9rem; 
       color:#262626;
     }
   .timeline {
