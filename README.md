@@ -1,6 +1,6 @@
 [![Issues][issues]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![GitHub][github-shield]]
+[GitHub][github-shield]
 [![License][license-shield]][license-url]
 [![Status][website-status]][website-url]
 
