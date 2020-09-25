@@ -1,5 +1,6 @@
 [![Issues][issues]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![GitHub][github-shield]]
 [![License][license-shield]][license-url]
 [![Status][website-status]][website-url]
 
@@ -76,4 +77,5 @@ Shrid Pant - [LinkedIn](https://www.linkedin.com/in/shridpant/)
 [license-url]: https://github.com/shridpant/shridpant.github.io/blob/master/LICENSE
 [linkedin-shield]: images/readme/linkedin.svg
 [linkedin-url]: https://www.linkedin.com/in/shridpant/
+[github-shield]: https://img.shields.io/github/followers/shridpant?style=social
 [product-screenshot]: images/screenshot.PNG
