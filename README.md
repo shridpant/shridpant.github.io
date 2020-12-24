@@ -1,8 +1,8 @@
+[![Status][website-status]][website-url]
 [![Issues][issues]][issues-url]
+[![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 ![github-shield]
-[![License][license-shield]][license-url]
-[![Status][website-status]][website-url]
 
 <br />
 <p align="center">
@@ -15,7 +15,7 @@
   <p align="center">
     Welcome to the GitHub repository of my personal website!
     <br />
-    <a href="https://github.com/shridpant/shridpant.github.io"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/shridpant/shridpant.github.io/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://shridpant.github.io/">View Website</a>
@@ -41,27 +41,30 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://shridpant.github.io/)
 
-This repository contains the source code for my personal website hosted on GitHub. It was made possible by many open-sourced libraries and frameworks.
+This repository contains the source code for my personal website hosted on GitHub. I use it to play around with various front-end technologies. It was made possible by many open-sourced libraries and frameworks.
 
+<!-- BUILT WITH -->
 ### Built With
 
-The website was built entirely with HTML5, CSS and JavaScript. The following were some external resources used:
-
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+The website is a *front-end experiment* with HTML5, CSS and JavaScript.
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the Apache License 2.0. See `LICENSE` for more information.
+Distributed under the Apache License 2.0. See [LICENSE](https://github.com/shridpant/shridpant.github.io/blob/master/LICENSE) for more information.
 
 <!-- CONTACT -->
 ## Contact
 
-Shrid Pant - [LinkedIn](https://www.linkedin.com/in/shridpant/)
+Feel free to hmu on [LinkedIn](https://www.linkedin.com/in/shridpant/).
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledements
+
+The website would not be possible without the following resources:
+
+* [Bootstrap](https://getbootstrap.com/)
+* [jQuery](https://jquery.com/)
 * [Particle.js](https://github.com/VincentGarreau/particles.js/)
 * [README Template](https://github.com/othneildrew/Best-README-Template)
 * [GitHub Pages](https://pages.github.com)

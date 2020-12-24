@@ -4,7 +4,7 @@
   p{
     font-size:0.7rem;
     color:#262626;
-  }
+}
   .timeline {
     width: 75vw;
     position: relative;
@@ -51,7 +51,7 @@
     position: absolute;
     top: -68vh;
     display: none;
-    width: 30vw;
+    width: 25vw;
     left: -5.2rem;
     cursor: auto;
   }
@@ -90,7 +90,7 @@
     transition: left .3s ease;
   }
   .dropdown .inner {
-    position: relative;
+    position: absolute;
     width: 32vw;
     height: 70vh;
   }
@@ -117,9 +117,13 @@
 
 @media (min-height: 550px) {
   @media (max-width: 1000px) {
+    h4{
+      position: relative;
+    }
     p{
       font-size: 0.9rem; 
       color:#262626;
+      position: relative;
     }
   .timeline {
     width: 75vw;
@@ -167,7 +171,7 @@
     position: absolute;
     top: -68vh;
     display: none;
-    width: 30vw;
+    width: 20vw;
     left: -5.2rem;
     cursor: auto;
   }
