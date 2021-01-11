@@ -66,8 +66,8 @@ The website would not be possible without the following resources:
 * [Bootstrap](https://getbootstrap.com/)
 * [jQuery](https://jquery.com/)
 * [Particle.js](https://github.com/VincentGarreau/particles.js/)
-* [README Template](https://github.com/othneildrew/Best-README-Template)
 * [GitHub Pages](https://pages.github.com)
+* [Screely](https://www.screely.com/editor)
 * [Google Fonts](https://fonts.google.com/)
 * [Img Shields](https://shields.io)
 
@@ -81,4 +81,4 @@ The website would not be possible without the following resources:
 [linkedin-shield]: images/readme/linkedin.svg
 [linkedin-url]: https://www.linkedin.com/in/shridpant/
 [github-shield]: https://img.shields.io/github/followers/shridpant?style=social
-[product-screenshot]: images/screenshot.PNG
+[product-screenshot]: images/screenshot.png
