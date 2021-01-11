@@ -81,4 +81,4 @@ The website would not be possible without the following resources:
 [linkedin-shield]: images/readme/linkedin.svg
 [linkedin-url]: https://www.linkedin.com/in/shridpant/
 [github-shield]: https://img.shields.io/github/followers/shridpant?style=social
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot.PNG
