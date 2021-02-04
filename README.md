@@ -1,13 +1,12 @@
 [![Status][website-status]][website-url]
 [![Issues][issues]][issues-url]
-[![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 ![github-shield]
 
 <br />
 <p align="center">
   <a href="https://github.com/shridpant/shridpant.github.io">
-    <img src="images/title_icon.png" alt="Logo" width="80" height="80">
+    <img src="assets/title_icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Personal Website</h3>
@@ -78,7 +77,7 @@ The website would not be possible without the following resources:
 [website-url]: https://shridpant.github.io/
 [license-shield]: https://img.shields.io/badge/licence-Apache-yellowgreen
 [license-url]: https://github.com/shridpant/shridpant.github.io/blob/master/LICENSE
-[linkedin-shield]: images/readme/linkedin.svg
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-lightgrey?logo=LinkedIn&style=social
 [linkedin-url]: https://www.linkedin.com/in/shridpant/
 [github-shield]: https://img.shields.io/github/followers/shridpant?style=social
-[product-screenshot]: images/screenshot.PNG
+[product-screenshot]: assets/screenshot.PNG
