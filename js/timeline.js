@@ -1,3 +1,10 @@
+/* -----------------------------------------------
+Author : https://codepen.io/vram1980
+CodePen ToS: https://blog.codepen.io/documentation/terms-of-service/
+MIT license: http://opensource.org/licenses/MIT
+CodePen : https://codepen.io/vram1980/pen/jrzgXk/
+----------------------------------------------- */
+
 // Globals
 var prefixes         = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 var $container       = $('.container');
